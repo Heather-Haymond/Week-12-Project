@@ -59,7 +59,7 @@ class Book {
     }
   }
   
-  // Display the details of a book in a separate view
+  // Display the details of a book in a separate view.
   function displayBookDetails(index) {
     let book = books[index];
   
