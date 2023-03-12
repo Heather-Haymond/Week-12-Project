@@ -1,0 +1,39 @@
+/* Custom CSS styles for the book inventory system */
+
+.container {
+    margin-top: 50px;
+  }
+  
+  #books-table th {
+    font-weight: bold;
+  }
+  
+  #book-details {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #book-details h2 {
+    margin-top: 0;
+  }
+  
+  .btn-edit,
+  .btn-delete {
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 576px) {
+    /* Styles for small screens */
+    #books-table th:nth-child(3),
+    #books-table td:nth-child(3) {
+      display: none;
+    }
+    #books-table th:nth-child(4),
+    #books-table td:nth-child(4) {
+      display: none;
+    }
+  }
+  
